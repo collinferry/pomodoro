@@ -1,0 +1,38 @@
+<body>
+
+  <audio src="http://www.collinferry.com/codepen/beep.mp3" preload="auto"></audio>
+
+  <div>
+    <h1>Pomodoro Timer</h1>
+  </div>
+
+  <div class="controls">
+    <div class="container">
+      <div class="buttons">
+        <button class="btn minus" value="breakMinutes">-</button>
+        <button class="btn start-break">Break</button>
+        <button class="btn plus" value="breakMinutes">+</button>
+      </div>
+      <span class='spacer'></span>
+      <div class="buttons">
+        <button class="btn minus" value="workMinutes">-</button>
+        <button class="btn start-work">Work</button>
+        <button class="btn plus" value="workMinutes">+</button>
+      </div>
+    </div>
+  </div>
+
+
+    <div id='rotation'>
+      <div id='center'>Pomodoro</div>
+      <div id='ring'></div>
+      <div id='object1'></div>
+      <div id='object2'></div>
+    </div>
+
+    <div class="timer" id="timer">
+    </div>
+
+  </div>
+
+</body>

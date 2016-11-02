@@ -1,0 +1,127 @@
+body {
+  background: #F44336;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4em;
+  font-weight: 400;
+  text-align: center;
+  color: #212121;
+}
+
+h6 {
+  font-family: 'Pacifico', cursive;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  color: #212121;
+}
+
+.credit {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+
+}
+
+.controls {
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  width: 100px;
+}
+
+.buttons {
+ float: left; 
+ padding-left: 40px; 
+ padding-right: 40px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #212121;
+  font-size: 20px;
+  background: #0AC25A;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+.btn:hover {
+  background: #73DB85;
+  text-decoration: none;
+}
+
+.timer {
+  font-size: 0px;
+  text-align: center;
+}
+
+#rotation {
+  margin: auto;
+  position: relative;
+  width: 700px;
+  top: -170px;
+
+}
+
+#center {
+  position: absolute;
+  width: 122px;
+  height: 122px;
+  top: 300px;
+  left: 300px;
+  background-color: #0AC25A;
+  -moz-border-radius: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 44px;
+  font-size: 40px;
+}
+
+#ring {
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    top: 220px;
+    left: 220px;
+    -moz-border-radius: 50%; /* or 50% */
+    border-radius: 50%; /* or 50% */
+    background-color: transparent;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: #212121;
+}
+
+#object1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 300px;
+  left: 200px;
+  background-color: #0AC25A;
+  -moz-border-radius: 18px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 57px;
+}
+
+#object2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 300px;
+  left: 200px;
+  background-color: #0AC25A;
+  -moz-border-radius: 18px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+}
