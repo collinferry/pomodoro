@@ -8,3 +8,5 @@ There obviously weren't enough Pomodoro timers on the internet so I created one 
 3) Plays a tone when the time is up. </br>
 
 Complete with a basic animation which actually is just experimental aesthetic (which is to say it does not interact with anything else in a meaningful way).
+
+Ah, you happen to need a Pomodoro Timer you say!? Well, lucky you, the code is live right here: https://collinferry.github.io/pomodoro/
